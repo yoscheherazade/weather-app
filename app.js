@@ -40,15 +40,3 @@ function getWeather() {
     .catch(err => console.log(err));
 }
 
-// const toggleFahrenheit = document
-//   .getElementById('fahrenheit')
-//   .addEventListener('click', setFahrenheit);
-
-// function setCelcius() {
-//   var cel = (temp - 32) * 5 / 9;
-//   return cel + '° C';
-// }
-
-// function setFahrenheit() {
-//   return temp + '° F';
-// }
